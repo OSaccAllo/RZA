@@ -1,0 +1,78 @@
+.room1{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  /* padding: 5px; */
+  width: 400px;
+}
+
+.desc{
+    border-radius: 4px;
+    max-width: 400px;
+    /* margin: 0 auto; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .date-picker {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .room-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .room {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .room img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .room h2 {
+    text-align: center;
+  }
+  
+  .room p {
+    text-align: center;
+  }
+  
+  .desc {
+    margin-top: 10px;
+  }
+  
+  .room button {
+    display: block;
+    margin: 0 auto;
+  }

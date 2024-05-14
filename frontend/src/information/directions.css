@@ -1,0 +1,20 @@
+/* directions page css */
+
+/* for the "Directions text */
+.direction-container{
+    margin-bottom: 40px;
+}
+
+
+    /* The type of direction */
+    .direction-category{
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+    /* The information */
+    .direction{
+        display: inline-block;
+        margin-bottom: 10px;
+    }

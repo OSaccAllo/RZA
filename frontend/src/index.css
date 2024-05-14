@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .lion{
+  width: 1000px;
+  height: auto;
+} */
+
+.Book-tickets{
+  float: right;
+  padding-right: 100px;
+  padding-right: 1000px;
+  /* display: block; */
+  width: 20%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: black;
+  cursor: pointer;
+}
+
+.img_button{
+  /* position: bottom; */
+  /* padding-top: 100px; */
+  /* float:right; */
+  /* padding-right: 100px; */
+  /* padding-right: 1000px; */
+  /* display: block; */
+  width: 20%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.img2_button{
+  width: 20%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 2;
+}
+
+.lion2{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  /* background-color: #cccccc; */
+}
+
+@media (max-width: 100px) {
+  .lion2 { display: none; }
+  .lion { display: none; }
+  body {
+    background-size: cover;
+  }
+}
+
+.welcome{
+  font-style: oblique;
+  text-align:center;
+}
+
+.cookie{
+  white-space: pre-wrap;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

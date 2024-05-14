@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+
+.lion{
+    width: 100%;
+    height: 1000px;
+    background-image: url("../images/armadillo.jpg");
+    background-color: #cccccc;
+}
+
+.ticket{
+    top: 50%;
+    translate: 0,-50%;
+    align-items: center;
+    background-color: aqua;
+}

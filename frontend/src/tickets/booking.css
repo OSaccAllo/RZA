@@ -1,0 +1,47 @@
+.tickets-section {
+    margin-bottom: 20px;
+}
+
+.prices-section {
+    margin-bottom: 20px;
+}
+
+.ticket-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.date-input {
+    margin-bottom: 10px;
+}
+
+.quantity-input {
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    /* margin-top: 10px;
+    padding: 10px 20px; */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.booking-button{
+    display: block;
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: black;
+    cursor: pointer;
+}
